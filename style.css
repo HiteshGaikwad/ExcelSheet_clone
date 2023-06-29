@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+}
+
+.sr-no {
+    min-width: 40px ;
+    background-color: rgb(239,239,239)
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    overflow-x: auto;
+}
+th{
+    background-color: rgb(239,239,239)
+}
+th,
+td {
+    border: 1px solid #333;
+    min-width: 80px;
+}
+
+tr{
+    height: 20px;
+    line-height: 20px;
+}
+
+td:focus {
+    outline: none;
+}
+
+#current-cell-div{
+    border: 1px solid black;
+    width: 210px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
